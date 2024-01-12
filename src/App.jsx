@@ -12,6 +12,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Count me in
         </button>
+        <button onClick={() => setCount((count) => count - 1)}>
+          Count me out
+        </button>
         <p>
           Count is {count}
         </p>
