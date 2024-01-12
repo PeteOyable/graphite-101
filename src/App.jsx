@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello world!</h1>
+      <h1>Hi world!</h1>
       <p><strong>This is a super counter. All you have to do is click on the button, and the see the magic happening.</strong></p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
